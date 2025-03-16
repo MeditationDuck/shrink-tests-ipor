@@ -1,6 +1,7 @@
 [compiler.solc]
 exclude_paths = ["source/node_modules", "source/venv", "source/.venv", "source/lib", "source/script", "source/test", "source/old_test", "source/scripts"]
 include_paths = ["source/node_modules"]
+evm_version = "shanghai"
 
 [compiler.solc.optimizer]
 enabled = true
